@@ -9,8 +9,8 @@ What things you need to install the software and how to install them
 ```
 
 Software	          Version
-Node			        >= 10.0
-NPM	                    >= 6.0.0
+Node			>= 10.0
+NPM	            >= 6.0.0
 
 Any Editor of your      Latest Version
 Choice. Preferably 
