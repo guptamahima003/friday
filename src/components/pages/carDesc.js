@@ -7,7 +7,7 @@ const CarDescription = (props) => {
   const [modelState, setProfileState] = useState(props);
 
   useEffect(() => {
-    getFetchCall('http://uimocks.infoedge.com/vehicles.json').then(res => {
+    getFetchCall('https://fridayassignment.s3.amazonaws.com/vehicles.json').then(res => {
       setBrand(res)
     }, []);
     setProfileState(props);
@@ -32,7 +32,7 @@ const CarDescription = (props) => {
               <div><b>Engine Capacity: </b>{modelName.engineCapacity}</div>
             </div>
           ))}
-        </div> : modelName.length != 0 && <NoData />}
+        </div> : modelName.length != 0 ? <NoData /> : <h3> Loading....</h3>}
 
     </React.Fragment>
   )

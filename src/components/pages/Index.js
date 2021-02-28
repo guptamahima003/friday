@@ -16,7 +16,7 @@ const SelectCar = (props) => {
 
   }
   useEffect(() => {
-        getFetchCall('http://uimocks.infoedge.com/makes.json').then(res => {       
+        getFetchCall('https://fridayassignment.s3.amazonaws.com/makes.json').then(res => {       
         setBrand(res) 
       },[]);
   }, [])

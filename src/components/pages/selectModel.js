@@ -13,7 +13,7 @@ const SelectModel = (props) => {
     history.push("/model/:desc");
   }
   useEffect(() => {
-    getFetchCall('http://uimocks.infoedge.com/models.json').then(res => {
+    getFetchCall('https://fridayassignment.s3.amazonaws.com/models.json').then(res => {
       setBrand(res)
     }, []);
   }, []);
@@ -44,7 +44,7 @@ const SelectModel = (props) => {
             </select>
           </div>
         </React.Fragment> :
-        modelName.length != 0 && <NoData />
+        modelName.length != 0 ? <NoData /> : <h3> Loading....</h3>
       }
 
       <div>
