@@ -25,6 +25,8 @@ This app allows a user to select their car from a directory of registered cars.
 2. Select/choose model of the respective car.
 3. and, finally user will able to see the list of cars with the respective features.
 
+## Click on Home Icon or logo Icon to go to Main Page
+
 It is a simple responsive web-app compatible for both mobile and desktop.
 
 APIs have been hosted on AWS-S3 server.
