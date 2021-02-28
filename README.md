@@ -1,6 +1,59 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React example app that demonstrates using React with webpack, and babeljs, as well as project structure with [Create React App](https://github.com/facebook/create-react-app).
+
+### Prerequisites
+
+What things you need to install the software and how to install them
+
+```
+
+Software	          Version
+Node			        >= 10.0
+NPM	                    >= 6.0.0
+
+Any Editor of your      Latest Version
+Choice. Preferably 
+VSCode
+```
+
+## What all is there in this web-app?
+
+It is on latest ```React version ^17.0.1 with react router ^5.2.0.
+This app allows a user to select their car from a directory of registered cars.
+1. First select brand/make the car.
+2. Select/choose model of the respective car.
+3. and, finally user will able to see the list of cars with the respective features.
+
+It is a simple responsive web-app compatible for both mobile and desktop.
+
+APIs have been hosted on AWS-S3 server.
+## APIs Paths: 
+https://fridayassignment.s3.amazonaws.com/makes.json, 
+https://fridayassignment.s3.amazonaws.com/models.json, 
+https://fridayassignment.s3.amazonaws.com/vehicles.json
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Installing
+
+```
+Step 1:-
+``` 
+Clone the Github Repo either by using HTTPS or SSH onto your local machine using the command "git clone". The master branch will be cloned to your project.
+
+```
+Step 2:-
+``` 
+ do ```npm install``` or ```yarn install```.
+
+```
+Step 3:-
+``` 
+Either open the project in respective IDEs like Visual Studio Code or any Other preferred IDE  and run the project from there only OR run the following commands ```npm start``` or ```npm run start``` from your terminal window from the root directory of your project to start the project.
+
 
 ## Available Scripts
 
@@ -13,11 +66,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
