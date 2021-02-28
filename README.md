@@ -21,7 +21,7 @@ VSCode
 
 It is on latest ```React version ^17.0.1 with react router ^5.2.0.
 This app allows a user to select their car from a directory of registered cars.
-1. First select brand/make the car.
+1. First select brand/make of the car.
 2. Select/choose model of the respective car.
 3. and, finally user will able to see the list of cars with the respective features.
 
